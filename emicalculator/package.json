@@ -1,0 +1,42 @@
+{
+  "name": "emicalculator",
+  "description": "Calculate EMI for loan",
+  "version": "1.0.0",
+  "private":false,
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "set PORT=3023 HOST=0.0.0.0 && react-scripts start",
+    "build": "webpack"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.16",
+    "@babel/runtime": "^7.12.18",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.2.0",
+    "css-loader": "^3.3.0",
+    "react-dom": "^17.0.1",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-scripts": "^4.0.2"
+  }
+}
